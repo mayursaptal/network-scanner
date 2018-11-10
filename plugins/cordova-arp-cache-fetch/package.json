@@ -1,0 +1,37 @@
+{
+  "_from": "cordova-arp-cache-fetch",
+  "_id": "cordova-arp-cache-fetch@0.3.2",
+  "_inBundle": false,
+  "_integrity": "sha512-8EYOUkIztG794jzY/qDy8AMxwIfpMYwaaffBnDp7HSLeQpXXBR2W5FibRhjoGyHxwopXTUIKoPhrtqTdB8LCKQ==",
+  "_location": "/cordova-arp-cache-fetch",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-arp-cache-fetch",
+    "name": "cordova-arp-cache-fetch",
+    "escapedName": "cordova-arp-cache-fetch",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-arp-cache-fetch/-/cordova-arp-cache-fetch-0.3.2.tgz",
+  "_shasum": "2cce4b373b6f21a4ff25356c158ad2e296d885eb",
+  "_spec": "cordova-arp-cache-fetch",
+  "_where": "/home/x/NetworkPeers",
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-arp-cache-fetch",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Fetch ARP Cache in Android",
+  "name": "cordova-arp-cache-fetch",
+  "version": "0.3.2"
+}

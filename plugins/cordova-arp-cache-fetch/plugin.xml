@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-arp-cache-fetch"
+    version="0.3.2">
+    <name>ARP Cache</name>
+    <description>Fetch ARP Cache in Android</description>
+    <license>MIT</license>
+    <keywords></keywords>
+    <repo>https://github.com/arvindr21/cordova-android-arp-cache.git</repo>
+    <issue>https://github.com/arvindr21/cordova-android-arp-cache/issues</issue>
+
+    <!-- android -->
+    <platform name="android">
+      <js-module src="www/arp.js" name="arp">
+        <runs/>
+
+        <!-- This is the window variable name you want, like window.ARP -->
+        <clobbers target="ARP" />
+      </js-module>
+      <config-file target="res/xml/config.xml" parent="/*">
+        <feature name="ARP">
+          <param name="android-package" value="com.arvindr21.ARP" />
+          <param name="onload" value="true" />
+        </feature>
+      </config-file>
+
+      <source-file src="src/android/com/arvindr21/ARP.java" target-dir="src/com/arvindr21/" />
+    </platform>
+</plugin>

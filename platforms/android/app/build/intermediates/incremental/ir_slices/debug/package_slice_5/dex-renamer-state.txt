@@ -1,0 +1,4 @@
+#Wed Oct 24 10:29:03 IST 2018
+base.0=/home/x/NetworkPeers/platforms/android/app/build/intermediates/transforms/dexMerger/debug/5
+path.0=classes.dex
+renamed.0=classes.dex
